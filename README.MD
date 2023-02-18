@@ -12,7 +12,7 @@ O MVC (Model, View e Controller) é um padrão que têm como um dos principais o
 
 ### Como é organizado um projeto que utiliza o Padrão MVC?
 
-No MVC o projeto é organizado em três camadas. A camada Model é responsável por cuidar dos dados. A View será a camada que cuidará da visualização, não podendo conter nenhuma regra de negócio. Já a última é camada Controller, esta é responsável em fazer o intermédio entre a camada de Model e View, recebendo todas as requisições, buscando os dados na Model quando necessário e retornando uma resposta para que View exiba, esta camada deve o mínimo ou nenhuma regra de negócio.
+No MVC o projeto é organizado em três camadas. A camada Model é responsável por cuidar dos dados. A View será a camada que cuidará da visualização, não podendo conter nenhuma regra de negócio. Já a última é camada Controller, esta é responsável em fazer o intermédio entre a camada de Model e View, recebendo todas as requisições, buscando os dados na Model quando necessário e retornando uma resposta para que View exiba, esta camada deve conter o mínimo ou nenhuma regra de negócio.
 
 ### Mas quais são as funcionalidades deste projeto?
 
@@ -23,9 +23,23 @@ No MVC o projeto é organizado em três camadas. A camada Model é responsável 
 - Node.js
 - TypeScript
 - Express
-- Nodemon
+- Ts-node
 - http-errors
 - EJS
 - JavaScript
 - HTML
 - CSS
+
+### Como executar este projeto?
+
+É necessário ter uma versão do **Node.Js** instalado para executar a aplicação.
+Você pode baixar neste link: <https://nodejs.org/en/download/>
+
+Após clonar execute os seguintes comandos:
+
+```npm
+  npm install
+  npm run dev
+```
+
+O comando **npm install** irá instalar as dependências do projeto e o **run dev** irá executar o projeto.
